@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "rootDir": ".",
+        "allowJs": true,
+        "alwaysStrict": true,
+        "allowSyntheticDefaultImports": true,
+        "allowUnreachableCode": false,
+        "declaration": false,
+        "experimentalDecorators": true,
+        "forceConsistentCasingInFileNames": true,
+        "lib": [
+            "dom",
+            "es2017",
+            "esnext.array",
+            "es2015.promise"
+        ],
+        "moduleResolution": "node",
+        "module": "commonjs",
+        "target": "es2017",
+        "noImplicitAny": false,
+        "noImplicitReturns": false,
+        "noUnusedLocals": true,
+        "noUnusedParameters": false,
+        "jsx": "react",
+        "jsxFactory": "h",
+        "typeRoots": [
+            "./node_modules/@0xproject/typescript-typings/types",
+            "./node_modules/@types"
+        ]
+    }
+}
