@@ -17,7 +17,7 @@ async function example() {
     const market = "WETH-DAI";
 
     // I.e. Infura, Alchemy etc
-    const httpProvider = "https://eth-ropsten.alchemyapi.io/jsonrpc/Zu1dAPPWZ4bzN7iEGji0496YX_o7fVDx";
+    const httpProvider = "";
 
     // Wallet private key / address
     const walletKey = "f2f48ee19680706196e2e339e5da3491186e0c4c5030670656b0e0164837257d";
